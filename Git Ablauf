@@ -1,0 +1,25 @@
+
+term: 
+
+- Ordner/touch chapter1.txt (Etwas inhalte geschrieben)
+- git init (initialisieren)
+- ls -a
+- git status
+- git add chapter1.txt
+- git status
+- git commit -m "..."
+- git log
+- chapter2 und 3 neu erstellen und Texte schreiben
+- git status
+- git add . (fügt die restliche neue Dateien zu)
+- git status
+- git commit -m "complete chapter2 and 3"
+- git log (verschiedene hashes)
+-
+nun wie man älteren Datei verwenden kann
+
+- chapter3.txt verarbeitet, bzw. Fehler geschrieben (gespeichert)
+- git status (rot)
+- git diff chapter3.txt
+- git checkout chapter3.txt (speichert die letzte Version)
+- 
